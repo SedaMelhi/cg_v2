@@ -1387,6 +1387,10 @@ header {
     width: 100%;
   }
 
+  header {
+    height: 100%;
+  }
+
   .header__bottom > div {
     width: 226px;
     height: 44px;
