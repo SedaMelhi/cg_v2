@@ -1449,9 +1449,18 @@ header {
     height: 50%;
   }
 
+  .header {
+    height: calc(100vh - 84px);
+    padding-top: 84px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+
   .header__bg {
-    height: calc(85% - 300px);
-    margin-top: 110px;
+    height: calc(100% - 250px);
+    margin-top: 0;
+    position: relative;
   }
 
   .header__bottom > div {
