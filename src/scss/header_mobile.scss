@@ -156,7 +156,7 @@
         height: 100vh;
     }
     .header{
-        height: 100%;
+        height: calc(100% - 40px);
         &__bottom{
             > div{
                 width: 226px;
