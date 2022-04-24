@@ -157,6 +157,8 @@
         min-height: -webkit-fill-available;
     }
     .header{
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
         &__bottom{
             > div{
                 width: 226px;

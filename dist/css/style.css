@@ -1392,6 +1392,11 @@ header {
     min-height: -webkit-fill-available;
   }
 
+  .header {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+
   .header__bottom > div {
     width: 226px;
     height: 44px;
