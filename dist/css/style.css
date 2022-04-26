@@ -1110,6 +1110,9 @@ header {
   color: #fff;
   font-family: "Druk Text";
   font-size: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .project__title_2 {
@@ -1164,9 +1167,31 @@ header {
   margin-top: -140px;
 }
 
+.project__image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.no-webp .project__image_1 {
+  background: url(../img/gorgons/gorgon1.png) center/cover; }
+
+.no-webp .project__image_2 {
+  background: url(../img/gorgons/gorgon2.png) center/cover; }
+
+.no-webp .project__image_3 {
+  background: url(../img/gorgons/gorgon3.png) center/cover; }
+
+.no-webp .project__image_4 {
+  background: url(../img/gorgons/gorgon4.png) center/cover; }
+
+.no-webp .project__image_5 {
+  background: url(../img/gorgons/gorgon5.png) center/cover; }
+
 .project__polygon {
   opacity: 0.2;
   cursor: pointer;
+  position: relative;
 }
 
 .project__polygon:hover {
@@ -1176,24 +1201,14 @@ header {
   transition: 0.4s ease-out;
 }
 
-.no-webp .project__polygon_1 {
-  background: url(../img/gorgons/gorgon1.png) center/cover; }
-
-.project__polygon_2 {
-  margin-left: 35px;
+.project__polygon:hover > div {
+  -webkit-transition: 0.4s ease-out;
+  -o-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(1.12) translateY(-50px);
+      -ms-transform: scale(1.12) translateY(-50px);
+          transform: scale(1.12) translateY(-50px);
 }
-
-.no-webp .project__polygon_2 img {
-  background: url(../img/gorgons/gorgon2.png) center/cover; }
-
-.no-webp .project__polygon_3 img {
-  background: url(../img/gorgons/gorgon3.png) center/cover; }
-
-.no-webp .project__polygon_4 img {
-  background: url(../img/gorgons/gorgon4.png) center/cover; }
-
-.no-webp .project__polygon_5 img {
-  background: url(../img/gorgons/gorgon5.png) center/cover; }
 
 @media screen and (max-width: 1550px) {
   .header__bottom {
@@ -1503,12 +1518,12 @@ header {
 
 .webp .header__bg_mask { background: url(../img/eyes.webp) no-repeat center/contain; }
 
-.webp .project__polygon_1 { background: url(../img/gorgons/gorgon1.webp) center/cover; }
+.webp .project__image_1 { background: url(../img/gorgons/gorgon1.webp) center/cover; }
 
-.webp .project__polygon_2 img { background: url(../img/gorgons/gorgon2.webp) center/cover; }
+.webp .project__image_2 { background: url(../img/gorgons/gorgon2.webp) center/cover; }
 
-.webp .project__polygon_3 img { background: url(../img/gorgons/gorgon3.webp) center/cover; }
+.webp .project__image_3 { background: url(../img/gorgons/gorgon3.webp) center/cover; }
 
-.webp .project__polygon_4 img { background: url(../img/gorgons/gorgon4.webp) center/cover; }
+.webp .project__image_4 { background: url(../img/gorgons/gorgon4.webp) center/cover; }
 
-.webp .project__polygon_5 img { background: url(../img/gorgons/gorgon5.webp) center/cover; }
+.webp .project__image_5 { background: url(../img/gorgons/gorgon5.webp) center/cover; }
