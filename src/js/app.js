@@ -27,7 +27,7 @@ window.addEventListener("load", function() {
         else if(i < number)
         setTimeout(() => countAnimation(i + 1), 0.1)
     }
-    setTimeout(() => countAnimation(1), 6000)
+    setTimeout(() => countAnimation(1), 8000)
     
     //убираем экран загрузки
     document.querySelector(".load").style.display = "none";

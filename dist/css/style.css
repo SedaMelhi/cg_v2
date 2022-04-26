@@ -225,11 +225,17 @@ template {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 html {
   font-size: 14px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#080C0D), color-stop(50%, #05000D), to(#000000));
+  background: -o-linear-gradient(top, #080C0D 0%, #05000D 50%, #000000 100%);
+  background: linear-gradient(180deg, #080C0D 0%, #05000D 50%, #000000 100%);
 }
 
 nav {
@@ -294,22 +300,7 @@ nav {
 }
 
 header {
-  background: -webkit-gradient(linear, left top, left bottom, from(#080C0D), color-stop(50%, #05000D), to(#000000));
-  background: -o-linear-gradient(top, #080C0D 0%, #05000D 50%, #000000 100%);
-  background: linear-gradient(180deg, #080C0D 0%, #05000D 50%, #000000 100%);
   height: 100vh;
-}
-
-.no-webp .bg_stone {
-  background: url("../img/stone.jpg"); }
-
-.bg_stone {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  display: block;
 }
 
 .bg_shine {
@@ -368,7 +359,7 @@ header {
 }
 
 .no-webp .header__bg_mask {
-  background: url(../img/eyes1.png) no-repeat center/contain; }
+  background: url(../img/eyes.png) no-repeat center/contain; }
 
 .header__bg_mask {
   height: 100%;
@@ -525,8 +516,8 @@ header {
 .animation #main-title path:nth-child(1) {
   stroke-dasharray: 693;
   stroke-dashoffset: 693;
-  -webkit-animation: line-anim 2s ease forwards 2s;
-          animation: line-anim 2s ease forwards 2s;
+  -webkit-animation: line-anim 1.5s ease forwards 2s;
+          animation: line-anim 1.5s ease forwards 2s;
 }
 
 .animation .svg_title {
@@ -548,23 +539,23 @@ header {
 }
 
 @-webkit-keyframes fill {
-  from {
+  0% {
     fill: transparent;
   }
 
-  to {
-    fill: rgba(255, 255, 255, 0.8666666667);
+  100% {
+    fill: rgba(255, 255, 255, 0.9333333333);
     stroke: rgba(255, 255, 255, 0);
   }
 }
 
 @keyframes fill {
-  from {
+  0% {
     fill: transparent;
   }
 
-  to {
-    fill: rgba(255, 255, 255, 0.8666666667);
+  100% {
+    fill: rgba(255, 255, 255, 0.9333333333);
     stroke: rgba(255, 255, 255, 0);
   }
 }
@@ -584,64 +575,64 @@ header {
 .animation #main-title path:nth-child(2) {
   stroke-dasharray: 318;
   stroke-dashoffset: 318;
-  -webkit-animation: line-anim 2s ease forwards 2.6s;
-          animation: line-anim 2s ease forwards 2.6s;
+  -webkit-animation: line-anim 1.5s ease forwards 2.1s;
+          animation: line-anim 1.5s ease forwards 2.1s;
 }
 
 .animation #main-title path:nth-child(3) {
   stroke-dasharray: 519;
   stroke-dashoffset: 519;
-  -webkit-animation: line-anim 2s ease forwards 2.9s;
-          animation: line-anim 2s ease forwards 2.9s;
+  -webkit-animation: line-anim 1.5s ease forwards 2.4s;
+          animation: line-anim 1.5s ease forwards 2.4s;
 }
 
 .animation #main-title path:nth-child(4) {
   stroke-dasharray: 602;
   stroke-dashoffset: 602;
-  -webkit-animation: line-anim 2s ease forwards 3.2s;
-          animation: line-anim 2s ease forwards 3.2s;
+  -webkit-animation: line-anim 1.5s ease forwards 2.7s;
+          animation: line-anim 1.5s ease forwards 2.7s;
 }
 
 .animation #main-title path:nth-child(5) {
   stroke-dasharray: 833;
   stroke-dashoffset: 833;
-  -webkit-animation: line-anim 2s ease forwards 2s;
-          animation: line-anim 2s ease forwards 2s;
+  -webkit-animation: line-anim 1.5s ease forwards 1.5s;
+          animation: line-anim 1.5s ease forwards 1.5s;
 }
 
 .animation #main-title path:nth-child(6) {
   stroke-dasharray: 487;
   stroke-dashoffset: 487;
-  -webkit-animation: line-anim 2s ease forwards 2.6s;
-          animation: line-anim 2s ease forwards 2.6s;
+  -webkit-animation: line-anim 1.5s ease forwards 2.1s;
+          animation: line-anim 1.5s ease forwards 2.1s;
 }
 
 .animation #main-title path:nth-child(7) {
   stroke-dasharray: 418;
   stroke-dashoffset: 418;
-  -webkit-animation: line-anim 2s ease forwards 2.3s;
-          animation: line-anim 2s ease forwards 2.3s;
+  -webkit-animation: line-anim 1.5s ease forwards 1.8s;
+          animation: line-anim 1.5s ease forwards 1.8s;
 }
 
 .animation #main-title path:nth-child(8) {
   stroke-dasharray: 722;
   stroke-dashoffset: 722;
-  -webkit-animation: line-anim 2s ease forwards 2.9s;
-          animation: line-anim 2s ease forwards 2.9s;
+  -webkit-animation: line-anim 1.5s ease forwards 2.4s;
+          animation: line-anim 1.5s ease forwards 2.4s;
 }
 
 .animation #main-title path:nth-child(9) {
   stroke-dasharray: 487;
   stroke-dashoffset: 487;
-  -webkit-animation: line-anim 2s ease forwards 2.6s;
-          animation: line-anim 2s ease forwards 2.6s;
+  -webkit-animation: line-anim 1.5s ease forwards 2.1s;
+          animation: line-anim 1.5s ease forwards 2.1s;
 }
 
 .animation #main-title path:nth-child(10) {
   stroke-dasharray: 521;
   stroke-dashoffset: 521;
-  -webkit-animation: line-anim 2s ease forwards 2.9s;
-          animation: line-anim 2s ease forwards 2.9s;
+  -webkit-animation: line-anim 1.5s ease forwards 2.4s;
+          animation: line-anim 1.5s ease forwards 2.4s;
 }
 
 @-webkit-keyframes subtitle {
@@ -680,176 +671,176 @@ header {
 
 .animation .header__subtitle > span:nth-child(1) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards;
-          animation: subtitle 0.4s linear forwards;
+  -webkit-animation: subtitle 0.2s linear forwards;
+          animation: subtitle 0.2s linear forwards;
 }
 
 .animation .header__subtitle > span:nth-child(2) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.1s;
-          animation: subtitle 0.4s linear forwards 0.1s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.05s;
+          animation: subtitle 0.2s linear forwards 0.05s;
 }
 
 .animation .header__subtitle > span:nth-child(3) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.15s;
-          animation: subtitle 0.4s linear forwards 0.15s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.1s;
+          animation: subtitle 0.2s linear forwards 0.1s;
 }
 
 .animation .header__subtitle > span:nth-child(4) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.2s;
-          animation: subtitle 0.4s linear forwards 0.2s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.2s;
+          animation: subtitle 0.2s linear forwards 0.2s;
 }
 
 .animation .header__subtitle > span:nth-child(5) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.25s;
-          animation: subtitle 0.4s linear forwards 0.25s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.25s;
+          animation: subtitle 0.2s linear forwards 0.25s;
 }
 
 .animation .header__subtitle > span:nth-child(6) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.3s;
-          animation: subtitle 0.4s linear forwards 0.3s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.3s;
+          animation: subtitle 0.2s linear forwards 0.3s;
 }
 
 .animation .header__subtitle > span:nth-child(7) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.35s;
-          animation: subtitle 0.4s linear forwards 0.35s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.35s;
+          animation: subtitle 0.2s linear forwards 0.35s;
 }
 
 .animation .header__subtitle > span:nth-child(8) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.4s;
-          animation: subtitle 0.4s linear forwards 0.4s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.4s;
+          animation: subtitle 0.2s linear forwards 0.4s;
 }
 
 .animation .header__subtitle > span:nth-child(9) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.45s;
-          animation: subtitle 0.4s linear forwards 0.45s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.45s;
+          animation: subtitle 0.2s linear forwards 0.45s;
 }
 
 .animation .header__subtitle > span:nth-child(10) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.5s;
-          animation: subtitle 0.4s linear forwards 0.5s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.5s;
+          animation: subtitle 0.2s linear forwards 0.5s;
 }
 
 .animation .header__subtitle > span:nth-child(11) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.55s;
-          animation: subtitle 0.4s linear forwards 0.55s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.55s;
+          animation: subtitle 0.2s linear forwards 0.55s;
 }
 
 .animation .header__subtitle > span:nth-child(12) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.6s;
-          animation: subtitle 0.4s linear forwards 0.6s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.6s;
+          animation: subtitle 0.2s linear forwards 0.6s;
 }
 
 .animation .header__subtitle .bold span:nth-child(1) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.65s;
-          animation: subtitle 0.4s linear forwards 0.65s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.65s;
+          animation: subtitle 0.2s linear forwards 0.65s;
 }
 
 .animation .header__subtitle .bold span:nth-child(2) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.6s;
-          animation: subtitle 0.4s linear forwards 0.6s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.6s;
+          animation: subtitle 0.2s linear forwards 0.6s;
 }
 
 .animation .header__subtitle .bold span:nth-child(3) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.75s;
-          animation: subtitle 0.4s linear forwards 0.75s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.75s;
+          animation: subtitle 0.2s linear forwards 0.75s;
 }
 
 .animation .header__subtitle .bold span:nth-child(4) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.8s;
-          animation: subtitle 0.4s linear forwards 0.8s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.8s;
+          animation: subtitle 0.2s linear forwards 0.8s;
 }
 
 .animation .header__subtitle .bold span:nth-child(5) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.85s;
-          animation: subtitle 0.4s linear forwards 0.85s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.85s;
+          animation: subtitle 0.2s linear forwards 0.85s;
 }
 
 .animation .header__subtitle .bold span:nth-child(6) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.9s;
-          animation: subtitle 0.4s linear forwards 0.9s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.9s;
+          animation: subtitle 0.2s linear forwards 0.9s;
 }
 
 .animation .header__subtitle .bold span:nth-child(7) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 0.95s;
-          animation: subtitle 0.4s linear forwards 0.95s;
+  -webkit-animation: subtitle 0.2s linear forwards 0.95s;
+          animation: subtitle 0.2s linear forwards 0.95s;
 }
 
 .animation .header__subtitle .bold span:nth-child(8) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1s;
-          animation: subtitle 0.4s linear forwards 1s;
+  -webkit-animation: subtitle 0.2s linear forwards 1s;
+          animation: subtitle 0.2s linear forwards 1s;
 }
 
 .animation .header__subtitle .bold span:nth-child(9) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.05s;
-          animation: subtitle 0.4s linear forwards 1.05s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.05s;
+          animation: subtitle 0.2s linear forwards 1.05s;
 }
 
 .animation .header__subtitle .bold span:nth-child(10) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.1s;
-          animation: subtitle 0.4s linear forwards 1.1s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.1s;
+          animation: subtitle 0.2s linear forwards 1.1s;
 }
 
 .animation .header__subtitle .bold span:nth-child(11) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.15s;
-          animation: subtitle 0.4s linear forwards 1.15s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.15s;
+          animation: subtitle 0.2s linear forwards 1.15s;
 }
 
 .animation .header__subtitle .bold span:nth-child(12) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.2s;
-          animation: subtitle 0.4s linear forwards 1.2s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.2s;
+          animation: subtitle 0.2s linear forwards 1.2s;
 }
 
 .animation .header__subtitle .bold span:nth-child(13) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.25s;
-          animation: subtitle 0.4s linear forwards 1.25s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.25s;
+          animation: subtitle 0.2s linear forwards 1.25s;
 }
 
 .animation .header__subtitle .bold span:nth-child(14) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.3s;
-          animation: subtitle 0.4s linear forwards 1.3s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.3s;
+          animation: subtitle 0.2s linear forwards 1.3s;
 }
 
 .animation .header__subtitle .bold span:nth-child(15) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.35s;
-          animation: subtitle 0.4s linear forwards 1.35s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.35s;
+          animation: subtitle 0.2s linear forwards 1.35s;
 }
 
 .animation .header__subtitle .bold span:nth-child(16) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.4s;
-          animation: subtitle 0.4s linear forwards 1.4s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.4s;
+          animation: subtitle 0.2s linear forwards 1.4s;
 }
 
 .animation .header__subtitle .bold span:nth-child(17) {
   opacity: 0;
-  -webkit-animation: subtitle 0.4s linear forwards 1.45s;
-          animation: subtitle 0.4s linear forwards 1.45s;
+  -webkit-animation: subtitle 0.2s linear forwards 1.45s;
+          animation: subtitle 0.2s linear forwards 1.45s;
 }
 
 @-webkit-keyframes show-up {
@@ -945,25 +936,16 @@ header {
 @-webkit-keyframes eye-show {
   0% {
     opacity: 0;
-    -webkit-filter: blur(10px);
-            filter: blur(10px);
-  }
-
-  20% {
-    opacity: 0.6;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
   }
 
   50% {
-    opacity: 0.6;
-  }
-
-  99% {
-    opacity: 0;
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
+    opacity: 1;
   }
 
   100% {
+    opacity: 0;
     display: none;
   }
 }
@@ -971,126 +953,43 @@ header {
 @keyframes eye-show {
   0% {
     opacity: 0;
-    -webkit-filter: blur(10px);
-            filter: blur(10px);
-  }
-
-  20% {
-    opacity: 0.6;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
   }
 
   50% {
-    opacity: 0.6;
-  }
-
-  99% {
-    opacity: 0;
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
+    opacity: 1;
   }
 
   100% {
+    opacity: 0;
     display: none;
   }
 }
 
-@-webkit-keyframes show-shine {
-  0% {
-    opacity: 0.6;
-  }
-
-  100% {
-    opacity: 0.6;
-  }
-}
-
-@keyframes show-shine {
-  0% {
-    opacity: 0.6;
-  }
-
-  100% {
-    opacity: 0.6;
-  }
-}
-
-@-webkit-keyframes show-stone {
-  0% {
-    opacity: 0;
-  }
-
-  20% {
-    opacity: 0.13;
-  }
-
-  50% {
-    opacity: 0.13;
-  }
-
-  99% {
-    opacity: 0;
-  }
-
-  100% {
-    visibility: hidden;
-  }
-}
-
-@keyframes show-stone {
-  0% {
-    opacity: 0;
-  }
-
-  20% {
-    opacity: 0.13;
-  }
-
-  50% {
-    opacity: 0.13;
-  }
-
-  99% {
-    opacity: 0;
-  }
-
-  100% {
-    visibility: hidden;
-  }
-}
-
 .animation nav {
-  -webkit-animation: show-up 0.7s linear forwards 7.5s;
-          animation: show-up 0.7s linear forwards 7.5s;
-}
-
-.animation .bg_stone {
-  -webkit-animation: show-stone 3s linear 8.4s forwards;
-          animation: show-stone 3s linear 8.4s forwards;
-}
-
-.animation .bg_shine {
-  -webkit-animation: show-shine 3s linear forwards 8.4s;
-          animation: show-shine 3s linear forwards 8.4s;
+  -webkit-animation: show-up 0.7s linear forwards 7s;
+          animation: show-up 0.7s linear forwards 7s;
 }
 
 .animation #main-title {
-  -webkit-animation: fill 2.5s ease forwards 5s;
-          animation: fill 2.5s ease forwards 5s;
+  -webkit-animation: fill 2.5s linear forwards 5.6s;
+          animation: fill 2.5s linear forwards 5.6s;
 }
 
 .animation .header__bg {
-  -webkit-animation: show-bg 2.5s ease forwards 5.5s;
-          animation: show-bg 2.5s ease forwards 5.5s;
+  -webkit-animation: show-bg 2s ease forwards 3.7s;
+          animation: show-bg 2s ease forwards 3.7s;
 }
 
 .animation .header__bg_mask {
-  -webkit-animation: eye-show 3s linear 8.2s forwards;
-          animation: eye-show 3s linear 8.2s forwards;
+  -webkit-animation: eye-show 2.5s linear 5.5s forwards;
+          animation: eye-show 2.5s linear 5.5s forwards;
 }
 
 .animation .header__bottom {
-  -webkit-animation: show-down 0.7s linear forwards 7.5s;
-          animation: show-down 0.7s linear forwards 7.5s;
+  -webkit-animation: show-down 0.7s linear forwards 7s;
+          animation: show-down 0.7s linear forwards 7s;
 }
 
 .load {
@@ -1182,6 +1081,110 @@ header {
             filter: blur(0px);
   }
 }
+
+.project {
+  width: 1520px;
+  margin: 0 auto;
+  padding: 80px 80px 0;
+}
+
+.project__wrap {
+  overflow-x: hidden;
+}
+
+.project__title {
+  width: 820px;
+  position: relative;
+}
+
+.project__title_1,
+.project__title_2 {
+  color: #fff;
+  font-family: "Druk Text";
+  font-size: 9rem;
+}
+
+.project__title_2 {
+  background: -o-radial-gradient(50.09% 50%, 50% 50%, #FF0000 0%, #B80000 100%);
+  background: radial-gradient(50% 50% at 50.09% 50%, #FF0000 0%, #B80000 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  position: absolute;
+  top: -3rem;
+}
+
+.project__description {
+  width: 646px;
+  font-weight: 400;
+  font-size: 1.714rem;
+  line-height: 110%;
+  background: -o-linear-gradient(353.59deg, #FFFFFF -0.4%, #5E5E5E 100%);
+  background: linear-gradient(96.41deg, #FFFFFF -0.4%, #5E5E5E 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.project__gorgons {
+  top: 100px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project__gorgons_1 .project__polygon {
+  margin-left: -140px;
+  margin-right: 175px;
+  margin-top: 60px;
+}
+
+.project__gorgons_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project__gorgons_2 .project__polygon {
+  margin-right: 35px;
+  margin-top: -140px;
+}
+
+.project__polygon {
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.project__polygon:hover {
+  opacity: 1;
+  -webkit-transition: 0.4s ease-out;
+  -o-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+
+.no-webp .project__polygon_1 {
+  background: url(../img/gorgons/gorgon1.png) center/cover; }
+
+.project__polygon_2 {
+  margin-left: 35px;
+}
+
+.no-webp .project__polygon_2 img {
+  background: url(../img/gorgons/gorgon2.png) center/cover; }
+
+.no-webp .project__polygon_3 img {
+  background: url(../img/gorgons/gorgon3.png) center/cover; }
+
+.no-webp .project__polygon_4 img {
+  background: url(../img/gorgons/gorgon4.png) center/cover; }
+
+.no-webp .project__polygon_5 img {
+  background: url(../img/gorgons/gorgon5.png) center/cover; }
 
 @media screen and (max-width: 1550px) {
   .header__bottom {
@@ -1376,7 +1379,7 @@ header {
 
 @media screen and (max-width: 500px) {
   html {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .logo {
@@ -1430,7 +1433,7 @@ header {
 
 @media screen and (max-width: 380px) {
   html {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .logo {
@@ -1487,8 +1490,16 @@ header {
   }
 }
 
-.webp .bg_stone { background: url(../img/stone.webp); }
-
 .webp .header__bg { background: url(../img/bg.webp) no-repeat center/contain; }
 
-.webp .header__bg_mask { background: url(../img/eyes1.webp) no-repeat center/contain; }
+.webp .header__bg_mask { background: url(../img/eyes.webp) no-repeat center/contain; }
+
+.webp .project__polygon_1 { background: url(../img/gorgons/gorgon1.webp) center/cover; }
+
+.webp .project__polygon_2 img { background: url(../img/gorgons/gorgon2.webp) center/cover; }
+
+.webp .project__polygon_3 img { background: url(../img/gorgons/gorgon3.webp) center/cover; }
+
+.webp .project__polygon_4 img { background: url(../img/gorgons/gorgon4.webp) center/cover; }
+
+.webp .project__polygon_5 img { background: url(../img/gorgons/gorgon5.webp) center/cover; }
