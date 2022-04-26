@@ -940,7 +940,11 @@ header {
             filter: blur(40px);
   }
 
-  50% {
+  45% {
+    opacity: 1;
+  }
+
+  70% {
     opacity: 1;
   }
 
@@ -957,7 +961,11 @@ header {
             filter: blur(40px);
   }
 
-  50% {
+  45% {
+    opacity: 1;
+  }
+
+  70% {
     opacity: 1;
   }
 

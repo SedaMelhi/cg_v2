@@ -259,7 +259,10 @@
         opacity: 0;
         filter: blur(40px);
     }
-    50%{
+    45%{
+        opacity: 1;
+    }
+    70%{
         opacity: 1;
     }
     100%{
