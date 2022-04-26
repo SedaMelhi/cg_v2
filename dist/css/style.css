@@ -1275,6 +1275,95 @@ header {
   padding: 40px 52px;
 }
 
+.carousel__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  margin: 200px 0 0;
+}
+
+.carousel__title {
+  font-family: "Druk Text";
+  font-size: 13.57rem;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  background: -o-radial-gradient(50.09% 50%, 50% 50%, #FFFFFF 0%, #B0B0B0 100%);
+  background: radial-gradient(50% 50% at 50.09% 50%, #FFFFFF 0%, #B0B0B0 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  opacity: 0.3;
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  top: calc(25% + 60px);
+}
+
+.slider {
+  position: relative;
+  z-index: 2;
+}
+
+.slider__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider__line_2 {
+  margin-top: -95px;
+}
+
+.slide {
+  margin-left: 30px;
+  width: 25%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.no-webp .slide__bg_1 {
+  background: url(../img/slider/1.png) center/cover; }
+
+.no-webp .slide__bg_2 {
+  background: url(../img/slider/2.png) center/cover; }
+
+.no-webp .slide__bg_3 {
+  background: url(../img/slider/3.png) center/cover; }
+
+.no-webp .slide__bg_4 {
+  background: url(../img/slider/4.png) center/cover; }
+
+.no-webp .slide__bg_5 {
+  background: url(../img/slider/5.png) center/cover; }
+
+.no-webp .slide__bg_6 {
+  background: url(../img/slider/6.png) center/cover; }
+
+.no-webp .slide__bg_7 {
+  background: url(../img/slider/7.png) center/cover; }
+
+.no-webp .slide__bg_8 {
+  background: url(../img/slider/8.png) center/cover; }
+
+.no-webp .slide__bg_9 {
+  background: url(../img/slider/9.png) center/cover; }
+
 @media screen and (max-width: 1550px) {
   .header__bottom {
     width: 87%;
@@ -1592,3 +1681,21 @@ header {
 .webp .project__image_4 { background: url(../img/gorgons/gorgon4.webp) center/cover; }
 
 .webp .project__image_5 { background: url(../img/gorgons/gorgon5.webp) center/cover; }
+
+.webp .slide__bg_1 { background: url(../img/slider/1.webp) center/cover; }
+
+.webp .slide__bg_2 { background: url(../img/slider/2.webp) center/cover; }
+
+.webp .slide__bg_3 { background: url(../img/slider/3.webp) center/cover; }
+
+.webp .slide__bg_4 { background: url(../img/slider/4.webp) center/cover; }
+
+.webp .slide__bg_5 { background: url(../img/slider/5.webp) center/cover; }
+
+.webp .slide__bg_6 { background: url(../img/slider/6.webp) center/cover; }
+
+.webp .slide__bg_7 { background: url(../img/slider/7.webp) center/cover; }
+
+.webp .slide__bg_8 { background: url(../img/slider/8.webp) center/cover; }
+
+.webp .slide__bg_9 { background: url(../img/slider/9.webp) center/cover; }
